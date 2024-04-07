@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marcaje</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h4>MARCAJE DE CONSTRUIRE A LISTELOR</h4>
+    <div>
+    <table>
+        <tr class="or">
+            <th>INSTRUCTIUNE</th>
+            <th class="atr">ATRIBUTE</th>
+            <th class="des">DESCRIERE</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="bl"><i>Liste de definiții</i></th>
+        </tr>
+        <tr>
+            <td class="bl">&#60dl&#62 &#60/dl&#62</td>
+            <th>-</th>
+            <td class="center">Începutul - sfârșitul listei de definiții</td>
+        </tr>
+        <tr>
+            <td class="bl">&#60dt&#62</td>
+            <th>-</th>
+            <td class="center">Termen (de definiție)</td>
+        </tr>
+        <tr>
+            <td class="bl">&#60dd&#62</td>
+            <th>-</th>
+           <td class="center">Descrierea termenului de definiție</td>
+        </tr>
+        <tr>
+            <th colspan="3" class="bl"><span><i>Liste neordonate (marcate)</i></span></th>
+        </tr>
+        <tr>
+            <td rowspan="2" class="atribut">&#60ul atribut&#62</td>
+            <th>-</th>
+            <td class="rgh">Începutul-sfârșitul listei marcate</td>
+        </tr>
+        <tr>
+            <td class="red">Type=</td>
+            <td class="rgh">Forma marcajului: circle, square, disc (implicit)</td>
+        </tr>
+        <tr>
+            <td class="bl">&#60li&#62</td>
+            <th>-</th>
+            <td class="rgh">Element de lista</td>
+        </tr>
+        <tr>
+            <th colspan="3" class="bl"><span><i>Liste ordonate(numerotate)</i></span></th>
+        </tr>
+        <tr>
+            <td rowspan="3" class="atribut">&#60ol atribut&#62 &#60ol&#62</td>
+            <th>-</th>
+            <td class="left">Începutul-sfârșitul listei numerotate</td>
+        </tr>
+        <tr>
+            <td class="red">Type=</td>
+            <td class="left">Tipul numerotarii: A, a, I, i, l (implicit)</td>
+        </tr>
+        <tr>
+            <td class="red">Start=</td>
+            <td class="left">Cu ce valoare începe numerotarea (implicit)</td>
+        </tr>
+        <tr>
+            <td class="bl">&#60li&#62</td>
+            <th>-</th>
+            <td class="left">Element al listei</td>
+        </tr>
+    </table>
+</div>
+</body>
+
+</html>

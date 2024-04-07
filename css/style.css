@@ -1,0 +1,53 @@
+table,td,th {
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 0px 4px;
+    margin: auto;
+}
+
+.atribut {
+    vertical-align: top;
+    background-color: rgb(222, 247, 255);
+}
+
+.bl {
+    background-color: rgb(229, 246, 252);
+}
+
+.center {
+    text-align: center;
+    color: rgb(182, 24, 194);
+}
+
+.rgh {
+    text-align: right;
+    color: rgb(182, 24, 194);
+}
+
+.left {
+    text-align: left;
+    color: rgb(182, 24, 194);
+}
+
+.atr {
+    padding: 0 15px;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(2, 206, 111);
+    margin: 10px;
+}
+
+.or {
+    background-color: rgb(247, 233, 214);
+}
+
+.red {
+    color: red;
+}
+
+span {
+    color: rgb(206, 41, 218);
+}
+   
